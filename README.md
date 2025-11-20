@@ -1,4 +1,4 @@
-# BMS_HV_MASTER_2025
+# Accumulator Managment System (High Voltage Battery Managment System) 2025
 
 Accumulator Managment System (High Voltage Battery Managment System)
 
