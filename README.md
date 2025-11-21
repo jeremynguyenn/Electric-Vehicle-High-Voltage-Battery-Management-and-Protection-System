@@ -1,6 +1,4 @@
-# Accumulator Managment System (High Voltage Battery Managment System) 2025
-
-Accumulator Managment System (High Voltage Battery Managment System)
+## Accumulator Managment System (High Voltage Battery Managment System)
 
 ## Overview
 The AMS system consists of two main parts, the master and multiple slaves.
@@ -73,7 +71,6 @@ Charger / Onboard Charger
 
 Thermal Management ECU
 
-
 ## Master
 The AMS Master is the center of the whole system it's responsible for most of the tasks: current measurement, high voltage relay control, slave control, high voltage measurement and communication with the car. 
 <p align="center"> 
@@ -89,6 +86,9 @@ The AMS system havely relies on RTOS (Real Time Operating System) for seperating
 ### Hardware 
 The AMS is powered by STM32G484xx, a powerful, new gen MCU capable of handling varius communication interfaces and tasks. On board there are also three 24bit ADC ICs responsible for taking precise measurments of flowing current and voltage present on HV bus. For interfacing with other components the AMS uses M80 and M300 series Harwin connectors which offer high reliability. The board also features other logic components all on a custom 4 layer board.
 
-<p align="center"> 
-  <img src="https://github.com/user-attachments/assets/a7a89a94-febb-4723-b750-979644e198c7">
-</p>
+### Picture
+<img width="313" height="660" alt="layer_Cu" src="https://github.com/user-attachments/assets/5a1db9a8-06bf-4bd7-8e31-39b8fa5d6cd5" />
+<img width="325" height="662" alt="bottom_layer_Cu" src="https://github.com/user-attachments/assets/b74484a5-d2c3-4d00-aa82-7ddc2ee83c1f" />
+<img width="325" height="663" alt="Adhesive_layer" src="https://github.com/user-attachments/assets/8dff23e5-16fc-430d-937a-ec496f66c57e" />
+<img width="531" height="746" alt="3d" src="https://github.com/user-attachments/assets/cf81ec2f-b8de-43df-86e9-014116e8cc78" />
+<p align="center"> <img src="https://github.com/user-attachments/assets/a7a89a94-febb-4723-b750-979644e198c7"></p>
